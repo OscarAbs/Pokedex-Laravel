@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokedex</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+        <link href="dist/css/app.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="app">
+
+            <the-nav></the-nav>
+
+            <div class="container mx-auto">
+                {% block content %}{% endblock %}
+            </div>
+
+            <the-footer></the-footer>
+        </div>
+    </body>
+    <script src="dist/js/app.js"></script>
+</html>
